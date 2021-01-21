@@ -30,7 +30,7 @@ nav {
 .nav_bar li {
   list-style: none;
   display: inline-block;
-  font-size: 13px;
+  font-size: 12px;
   padding: 5px;
 }
 .button {
@@ -59,7 +59,6 @@ nav {
   bottom: 0;
   right: 0;
 }
-
 .nav_text {
   position: relative;
   left: 5%;
@@ -68,6 +67,68 @@ nav {
 }
 .nav_text h1 {
   color: white;
-  font-size: 40px;
+  font-size: 35px;
+  padding: 20px 0;
+}
+
+main .blocco_grigio {
+  width: 100%;
+  text-align: center;
+  background-color: lightgrey;
+  padding: 5vh 0;
+}
+.blocco_grigio h4 {
+  font-size: 15px;
+  color: grey;
+  padding-top: 5px;
+}
+.box_column {
+  width: 90%;
+  margin: 0 auto;
+}
+.column {
+  width: 33%;
+  text-align: center;
+  height: 500px;
+  margin: 30px 0;
+  float: left;
+}
+.column img {
+  object-fit: cover;
+  width: 40%;
+}
+.resize{
+  height: 30vh;
+}
+.column h3 {
+  color: #00cc00;
+  font-size: 25px;
+  margin: 10px 0;
+}
+.column hr {
+  width: 20%;
+  border: 1px solid grey;
+  margin: auto;
+}
+.column p {
+  padding: 10px 0;
+  color: grey;
+}
+.center_column {
+  padding: 0 20px;
+}
+
+.lower_columns {
+  width: 80%;
+  margin: 0 auto;
+}
+.l_column {
+  width: 50%;
+  object-fit: cover;
+  float: left;
+  padding: 20px;
+}
+.l_column h3 {
+  color: grey;
   padding: 20px 0;
 }
