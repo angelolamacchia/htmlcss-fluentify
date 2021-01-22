@@ -5,7 +5,7 @@
 }
 
 .clearfix::after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -25,13 +25,12 @@ nav {
   height: 10vh;
   margin: 0 auto;
   position: relative;
+  padding-top: 10px;
 }
 .nav_bar ul {
   display: inline-block;
   color: white;
-  position: relative;
-  bottom: 10px;
-  margin: 0 25px;
+  margin-top: 10px;
 }
 .nav_bar li {
   list-style: none;
@@ -56,8 +55,21 @@ nav {
   text-decoration: none;
   color: white;
 }
+.large_button {
+  padding: 10px;
+}
+
+#nav_bar_logo {
+  width: 160px;
+  float: left;
+}
+#lista1 {
+  width: 450px;
+  float: left;
+}
 #lista2 {
-  margin: 0 10%;
+  width: 370px;
+  float: right;
 }
 #header_bg {
   width: 50%;
@@ -65,6 +77,7 @@ nav {
   bottom: 0;
   right: 0;
 }
+
 .nav_text {
   position: relative;
   left: 5%;
@@ -95,12 +108,12 @@ main .blocco_grigio {
 .column {
   width: 33%;
   text-align: center;
-  height: 500px;
+  height: 350px;
   margin: 30px 0;
   float: left;
 }
 .resize{
-  height: 200px;
+  height: 150px;
   background-size: 100% 100%;
   background-position: center;
 }
@@ -121,7 +134,8 @@ main .blocco_grigio {
 .column hr {
   width: 20%;
   border: 1px solid grey;
-  margin: auto;
+  margin: 0 auto;
+  background-color: grey;
 }
 .column p {
   padding: 10px 0;
@@ -134,6 +148,7 @@ main .blocco_grigio {
 .lower_columns {
   width: 80%;
   margin: 0 auto;
+  padding-top: 20px;
 }
 .l_column {
   width: 50%;
@@ -172,4 +187,15 @@ footer {
 }
 #select span{
   margin-left: 30px;
+}
+
+.help {
+  position: fixed;
+  bottom: 0;
+  right: 20%;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  background-color: #00cc00;
+  color: white;
 }
